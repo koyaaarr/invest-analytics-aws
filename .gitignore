@@ -1,0 +1,11 @@
+*.json
+.ipython/*
+.local/*
+.cache/*
+.jupyter/*
+.ipynb_checkpoints/*
+ta-lib
+sagemaker-jumpstart-tasks-status.json
+.viminfo
+.yarnrc
+*.gz
