@@ -1,0 +1,6 @@
+mljar-mercury
+pandas
+numpy
+TA-Lib
+PyYAML
+plotly
