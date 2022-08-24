@@ -8,11 +8,11 @@ on:
 jobs:
   build-and-push:
 
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     timeout-minutes: 300
 
     steps:
-    - uses: actions/checkout@v1    
+    - uses: actions/checkout@v2
 
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
