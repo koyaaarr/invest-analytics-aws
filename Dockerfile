@@ -11,6 +11,10 @@ RUN wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz && \
 RUN pip install TA-Lib
 RUN rm -R ta-lib ta-lib-0.4.0-src.tar.gz
 
+RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+RUN unzip awscliv2.zip
+RUN ./aws/install
+
 RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
 
