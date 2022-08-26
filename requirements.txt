@@ -5,3 +5,4 @@ TA-Lib
 PyYAML
 plotly
 boto3
+sagemaker
